@@ -1,0 +1,18 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  creationTimestamp: null
+  name: devfile-sample-f8y1
+spec:
+  replicas: 1
+  selector: {}
+  strategy: {}
+  template:
+    metadata:
+      creationTimestamp: null
+    spec:
+      containers:
+      - image: quay.io/stonesoupuicluster/karthik-jk-tenant/my-app/devfile-sample-f8y1@sha256:2f71f9257c9de539f3eb094c0802b8555a10c9c8c0a16f7b9938efdb4a257a96
+        name: my-nodejs
+        resources: {}
+status: {}
