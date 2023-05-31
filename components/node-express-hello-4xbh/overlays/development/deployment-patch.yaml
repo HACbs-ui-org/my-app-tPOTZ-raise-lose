@@ -1,0 +1,18 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  creationTimestamp: null
+  name: node-express-hello-4xbh
+spec:
+  replicas: 1
+  selector: {}
+  strategy: {}
+  template:
+    metadata:
+      creationTimestamp: null
+    spec:
+      containers:
+      - image: quay.io/stonesoupuicluster/karthik-jk-tenant/my-app/node-express-hello-4xbh@sha256:e09e4d23aa9e304352063aabe285173fe576ea59b25f6ed62e40eb952b1c29f1
+        name: my-nodejs
+        resources: {}
+status: {}
