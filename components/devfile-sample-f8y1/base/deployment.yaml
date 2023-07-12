@@ -25,7 +25,7 @@ spec:
         app.kubernetes.io/instance: devfile-sample-f8y1
     spec:
       containers:
-      - image: quay.io/stonesoupuicluster/karthik-jk-tenant/my-app/devfile-sample-f8y1@sha256:c72570fa835a7969d9e6ed8f2cb78a8b2966d051e3eaa98873275d15f863c8bb
+      - image: quay.io/stonesoupuicluster/karthik-jk-tenant/my-app/devfile-sample-f8y1@sha256:2f71f9257c9de539f3eb094c0802b8555a10c9c8c0a16f7b9938efdb4a257a96
         name: my-nodejs
         ports:
         - containerPort: 3001
